@@ -62,7 +62,7 @@ const Certifications = () => {
           className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-6 font-playfair 
                      bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent cursor-pointer"
         >
-          Certifications
+          CERTIFICATIONS
         </motion.h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">

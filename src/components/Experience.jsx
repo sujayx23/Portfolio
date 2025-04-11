@@ -7,25 +7,25 @@ const experienceData = [
     title: 'Packaged App Development Analyst',
     company: 'Accenture',
     description: `
-      Configured and implemented SAP Ariba Cloud Integration Gateway (CIG) to establish seamless integration between SAP ERP and Ariba procurement systems. Established and validated integration workflows in Test Central, ensuring successful data flow for procurement transactions, supplier onboarding, and invoice processing. Led the Go-Live deployment, managing the transition from legacy systems to the Ariba platform with minimal downtime and post-deployment optimizations.
+      Configured and implemented SAP Cloud Integration Gateway to establish seamless integration between SAP ERP and Ariba procurement systems. Established integration workflows in Test Central, ensuring successful data flow for procurement transactions, supplier onboarding, and invoice processing.
     `,
-    skills: 'SAP Ariba Procurement · Cloud Integration Gateway Implementation · SAP ERP Integration · Migrate A CI9 Integration Architecture To SAP Ariba Cloud Integration Gateway · Integrating SAP Ariba Applications · Setting Up Cloud Connectors · Data Exchange · Go-Live Deployment'
+    skills: 'CIG Implementation · SAP ERP Integration · SAP ABAP · Integrating SAP Ariba Applications · Cloud Connectors · Data Exchange · Go-Live Deployment'
   },
   {
     dateRange: 'Dec 2022 - Aug 2024',
     title: 'Packaged App Development Associate',
     company: 'Accenture',
     description: `
-      Designed and configured SAP Ariba downstream processes, including Procure-to-Order (P2O), invoice reconciliation, and procurement workflows, ensuring seamless operations. Developed and maintained analytical reports for procurement efficiency and supplier performance. Implemented process automation solutions, reducing manual interventions and improving system efficiency, while ensuring accurate month-end validation and financial reporting.
+      Designed and configured SAP Ariba downstream processes, including Procure-to-Order (P2O), invoice reconciliation, and procurement workflows, ensuring seamless operations. Implemented process automation solutions, reducing manual interventions and improving system efficiency.
     `,
-    skills: 'ERP Integration · Cloud Integration Gateway · SAP Ariba Procurement · SAP ABAP · Ariba Buying and Invoicing · Advanced Excel (Pivot Tables, VLOOKUP) · Guided Buying · ServiceNow Administration'
+    skills: 'ERP Integration · Cloud Integration Gateway · SAP Ariba Procurement · Ariba Buying and Invoicing · Advanced Excel (Pivot Tables, VLOOKUP) · Guided Buying · Snow Administration'
   },
   {
     dateRange: 'Jan 2021 - Mar 2021',
     title: 'Machine Learning Intern',
     company: 'Smartbridge',
     description: `
-      Developed machine learning models using Scikit-learn to analyze project-specific datasets supporting SmartBridge's internal analytics, reporting, and automation initiatives. Automated data preprocessing workflows with Pandas, improving data quality and reducing model development time.
+      Developed machine learning models using Scikit-learn to analyze project-specific datasets supporting SmartBridge's internal analytics, reporting, and automation initiatives. Automated data preprocessing workflows with Pandas, improving data quality and reducing development time.
     `,
     skills: 'Scikit-Learn · Process Automation · Machine Learning'
   },
@@ -69,7 +69,7 @@ const Experience = () => {
           transition={{ duration: 0.8 }}
           className="text-center text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-12 text-pink-500 font-playfair"
         >
-          Experience
+          EXPERIENCE
         </motion.h2>
 
         <div className="flex flex-col md:flex-row items-center gap-8">

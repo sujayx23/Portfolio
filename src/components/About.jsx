@@ -1,17 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaPython, FaJs, FaDatabase, FaAws, FaDocker } from 'react-icons/fa';
-import { SiMongodb, SiPostgresql, SiDjango } from 'react-icons/si';
 
 const skills = [
-  { icon: <FaPython size={30} color="#3776AB" />, label: 'Python' },
-  { icon: <FaJs size={30} color="#F7DF1E" />, label: 'JavaScript' },
-  { icon: <SiMongodb size={30} color="#47A248" />, label: 'MongoDB' },
-  { icon: <FaDatabase size={30} color="#f29111" />, label: 'MySQL' },
-  { icon: <SiPostgresql size={30} color="#336791" />, label: 'PostgreSQL' },
-  { icon: <FaAws size={30} color="#FF9900" />, label: 'AWS' },
-  { icon: <FaDocker size={30} color="#0db7ed" />, label: 'Docker' },
-  { icon: <SiDjango size={30} color="#092E20" />, label: 'Django' },
+  'Java', 'C++', 'Python', 'NumPy', 'Pandas', 'JavaScript', 'HTML', 'CSS', 'React', 'ABAP',
+  'MySQL', 'Linux', 'NLP', 'PyTorch', 'Tensorflow', 'Scikit-learn', 'Regression',
+  'OpenCV', 'NLTK', 'Flask', 'MATLAB', 'CI/CD (Jenkins)', 'Docker', 'Jira', 'Git',
+  'SAP Ariba (P2P)', 'Ariba Network', 'CIG', 'ERP Integration (SAP ECC/S4HANA)', 'AWS (core)'
 ];
 
 const About = () => {
@@ -27,7 +21,7 @@ const About = () => {
           whileHover={{ scale: 1.03 }}
           className="text-center text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-12 text-pink-500 font-playfair"
         >
-          About Me
+          ABOUT ME
         </motion.h2>
 
         <motion.p
@@ -79,9 +73,9 @@ const About = () => {
         <div className="mt-32 overflow-hidden relative px-4">
           <motion.h3
             whileHover={{ scale: 1.03 }}
-            className="text-center text-3xl sm:text-2xl lg:text-4xl font-bold mb-12 text-pink-500 font-playfair"
+            className="text-center text-2xl sm:text-1xl lg:text-3xl font-bold mb-12 text-pink-500"
           >
-            Skills
+             My Technical Arsenal
           </motion.h3>
 
           <div className="w-full flex justify-center mb-8">
@@ -95,14 +89,13 @@ const About = () => {
             className="flex space-x-8 animate-marquee w-[calc(100%*2)]"
             style={{ animation: 'marquee 15s linear infinite' }}
           >
-            {[...skills, ...skills].map((skill, index) => (
+            {[...skills, ...skills].map((label, index) => (
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 key={index}
-                className="flex flex-col items-center justify-center w-32 h-32 border border-yellow-500 rounded-xl shadow-[0_0_10px_rgba(255,20,147,0.5)] bg-[#161b22] transition-transform"
+                className="flex items-center justify-center w-48 h-16 px-4 border border-yellow-500 rounded-xl shadow-[0_0_10px_rgba(255,20,147,0.5)] bg-[#161b22] transition-transform"
               >
-                <div className="mb-2">{skill.icon}</div>
-                <p className="text-white text-sm font-semibold">{skill.label}</p>
+                <p className="text-white text-sm font-semibold text-center">{label}</p>
               </motion.div>
             ))}
           </motion.div>

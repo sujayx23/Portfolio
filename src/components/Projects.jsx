@@ -73,7 +73,7 @@ const Projects = () => {
           transition={{ duration: 0.8 }}
           className="text-center text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-12 text-pink-500 font-playfair"
         >
-          Projects
+          PROJECTS
         </motion.h2>
 
         {/* Timeline Container */}

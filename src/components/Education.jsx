@@ -7,27 +7,20 @@ const educationData = [
     title: "Master's degree, Computer Science",
     institution: 'University of Illinois Urbana-Champaign',
     description:
-      'Currently pursuing a Master of Computer Science (MCS) at UIUC, specializing in machine learning, AI, and data science. Coursework includes Applied Machine Learning, Text Information Systems, and Hot Topics in Data Management.',
+      'Currently pursuing a Master of Computer Science (MCS) at UIUC, specializing in Machine Learning, Text Mining, and Data Management. Coursework includes Applied Machine Learning, Text Information Systems, and Hot Topics in Data Management.',
     skills:
-      'Skills: Natural Language Processing (NLP) · Matplotlib · Data Mining · NumPy · Machine Learning · Scikit-Learn · Large-scale data management and processing · Pandas',
+      'Skills: Natural Language Processing (NLP) · MATLAB · Data Mining · NumPy · Machine Learning · Scikit-Learn · Pandas',
   },
   {
     dateRange: '2018 - 2022',
     title: 'Bachelor of Engineering - BE, Computer Science',
     institution: 'R.M.K Engineering College',
     description:
-      'Completed undergraduate studies in Computer Science Engineering. Gained experience in full-stack development, databases, and AI systems.',
+      'Completed undergraduate studies in Computer Science and Engineering. Gained experience in Data Structures, Databases, and Operating Systems.',
     skills:
       'Skills: C++ · SMTP · SQL · Python · C · AI · Machine Learning · Flask · JavaScript · Java · DBMS · Computer Vision · OpenCV · Flutter',
   },
-  {
-    dateRange: 'Jun 2017 - Apr 2018',
-    title: 'HSC',
-    institution: 'Maharishi Vidya Mandir Senior Secondary School',
-    description:
-      'Completed higher secondary education with focus on mathematics, physics, and computer science.',
-    skills: '',
-  },
+
 ];
 
 const Education = () => {
@@ -46,7 +39,7 @@ const Education = () => {
           transition={{ duration: 0.8 }}
           className="text-center text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-12 text-pink-500 font-playfair"
         >
-          Education
+          EDUCATION
         </motion.h2>
 
         <div className="flex flex-col md:flex-row items-center gap-8">
@@ -57,7 +50,7 @@ const Education = () => {
             className="hidden md:flex flex-1 justify-center items-center"
           >
             <img
-              src="/education.png"
+              src="/Education.png"
               alt="Education illustration"
               className="w-3/4 max-w-sm md:max-w-md mx-auto brightness-110"
             />
